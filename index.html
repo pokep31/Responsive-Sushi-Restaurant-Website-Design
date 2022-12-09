@@ -7,25 +7,93 @@
         <!--=============== FAVICON ===============-->
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-        <!--=============== REMIXICONS ===============-->
+        <!--=============== REMIXICONS =======https:// remixicon.com/========-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive sushi website - Bedimcode</title>
+        <title>Responsive sushi website</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+              <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="logo image">
+                Sushi
+              </a>
+
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                    <a href="#about" class="nav__link">About us</a>
+                  </li>
+
+                  <li class="nav__item">
+                    <a href="#popular" class="nav__link">Popular</a>
+                  </li>
+
+                  <li class="nav__item">
+                    <a href="#recently" class="nav__link">Recently</a>
+                  </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+                </div>
+
+                <img src="assets/img/leaf-branch-4.png" alt="nav image" class="nav__img-1">
+                <img src="assets/img/leaf-branch-3.png" alt="nav image" class="nav__img-2">
+              </div>
+
+              <div class="nav__buttons">
+                <!-- Theme change button -->
+                <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-apps-2-line"></i>
+                </div>
+              </div>
+            </nav>
         </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid">
+                  <img src="assets/img/home-sushi-rolls.png" alt="home image">
+
+                  <div class="home__data">
+                    <h1 class="home__title">
+                      Enjoy Delicious
+
+                      <div>
+                        <img src="assets/img/home-sushi-title.png" alt="home image">
+                        Sushi Food
+                      </div>
+                    </h1>
+
+                    <p class="home__description">
+                      Enjoy a good dinner with the best dishes in 
+                      the restaurant and improve your day.
+                    </p>
+
+                    <a href="#" class="button">
+                      Order Now <i class="ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <img src="assets/img/leaf-branch-2.png" alt="home image" class="home__leaf-1">
+                <img src="assets/img/leaf-branch-4.png" alt="home image" class="home__leaf-2">
             </section>
 
             <!--==================== ABOUT ====================-->
